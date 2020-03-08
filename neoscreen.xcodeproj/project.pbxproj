@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		E1AACB9B241547E5007A4CBE /* neoscreenView.h in Headers */ = {isa = PBXBuildFile; fileRef = E1AACB9A241547E5007A4CBE /* neoscreenView.h */; };
 		E1AACB9D241547E5007A4CBE /* neoscreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AACB9C241547E5007A4CBE /* neoscreenView.m */; };
+		E1AACBA5241552B0007A4CBE /* ConfigureSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1AACBA4241552B0007A4CBE /* ConfigureSheet.xib */; };
+		E1AACBA7241556F8007A4CBE /* Webview in Resources */ = {isa = PBXBuildFile; fileRef = E1AACBA6241556F8007A4CBE /* Webview */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +18,8 @@
 		E1AACB9A241547E5007A4CBE /* neoscreenView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = neoscreenView.h; sourceTree = "<group>"; };
 		E1AACB9C241547E5007A4CBE /* neoscreenView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = neoscreenView.m; sourceTree = "<group>"; };
 		E1AACB9E241547E5007A4CBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1AACBA4241552B0007A4CBE /* ConfigureSheet.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConfigureSheet.xib; sourceTree = "<group>"; };
+		E1AACBA6241556F8007A4CBE /* Webview */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Webview; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,9 +52,11 @@
 		E1AACB99241547E5007A4CBE /* neoscreen */ = {
 			isa = PBXGroup;
 			children = (
+				E1AACBA6241556F8007A4CBE /* Webview */,
 				E1AACB9A241547E5007A4CBE /* neoscreenView.h */,
 				E1AACB9C241547E5007A4CBE /* neoscreenView.m */,
 				E1AACB9E241547E5007A4CBE /* Info.plist */,
+				E1AACBA4241552B0007A4CBE /* ConfigureSheet.xib */,
 			);
 			path = neoscreen;
 			sourceTree = "<group>";
@@ -124,6 +130,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1AACBA7241556F8007A4CBE /* Webview in Resources */,
+				E1AACBA5241552B0007A4CBE /* ConfigureSheet.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

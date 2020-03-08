@@ -9,5 +9,8 @@
 #import <ScreenSaver/ScreenSaver.h>
 
 @interface neoscreenView : ScreenSaverView
-
+{
+    __weak IBOutlet NSPopUpButton *screenDisplayOption;
+    IBOutlet NSPanel *configSheet;
+}
 @end
